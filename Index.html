@@ -6,17 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
+      <div class="hamburger" id="hamburger">
+        &#9776;
+      </div>
+      <ul id="nav-menu">
         <li id="li-logo" class="logo"><a target="_self" href="index.html"><img
               src="images/logos/westboroughBizLogo.png"></a></li>
-        <li class="menu"><a href="finance.html ">
-            <h5 class="menu">Finance</h5>
-          </a></li>
         <li class="menu"><a href="general.html">
             <h5 class="menu">General</h5>
           </a></li>
@@ -32,33 +33,42 @@
       </ul>
     </nav>
   </header>
-  <div class="heroImageHomePage" id="index">
-    <div class="header">
-      <h1 class="header">Home</h1>
+  <main id="content">
+    <div class="heroImageHomePage" id="index">
+      <div class="header">
+        <h1 class="header">Home</h1>
+      </div>
+    </div>
+    <div class="page-name">
+      <h1>Home</h1>
       <h2 class="missionStatement">
-        The Business Education Department is committed to providing comprehensive courses that will play a prominent role in developing the knowledge, skills, and attitudes to make astute personal and global economic decisions and to succeed in college and the workforce.
+        The Business Education Department is committed to providing comprehensive courses that will play a prominent
+        role in developing the knowledge, skills, and attitudes to make astute personal and global economic decisions
+        and to succeed in college and the workforce.
       </h2>
     </div>
-  </div>
-  <div class="page-name">
-    <h1>Home</h1>
-  </div>
-  <div class="info">
-    <table class ="info">
-      <tr class ="info">
-        <td class ="info"><h2>Student Testimonial</h2>
-          <p>[Testimonials haven't been provided yet]</p></td>
-        <td class ="info"><img src="images/home/fun1.png"></td>
-      </tr>
+    <div class="info">
+      <table class="info">
+        <tr class="info">
+          <td class="info">
+            <h2>Student Testimonial</h2>
+            <p>[Testimonials haven't been provided yet]</p>
+          </td>
+          <td class="info"><img src="images/home/fun1.png"></td>
+        </tr>
 
-      <tr class="info">
-        <td class ="info"><img src="images/home/fun2.png"></td>
-        <td class ="info"><h2>Student Testimonial</h2>
-            <p>[Testimonials haven't been provided yet]</p></td></td>
-      </tr>
-    </table>
-  </div>
-  </div>
+        <tr class="info">
+          <td class="info"><img src="images/home/fun2.png"></td>
+          <td class="info">
+            <h2>Student Testimonial</h2>
+            <p>[Testimonials haven't been provided yet]</p>
+          </td>
+          </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+  </main>
   <footer>
     <div class="footerInfo">
       <li>
